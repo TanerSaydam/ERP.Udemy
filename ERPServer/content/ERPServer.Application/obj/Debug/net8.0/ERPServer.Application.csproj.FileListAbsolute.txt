@@ -1,0 +1,16 @@
+C:\ERP\ERPServer\content\ERPServer.Application\bin\Debug\net8.0\ERPServer.Application.deps.json
+C:\ERP\ERPServer\content\ERPServer.Application\bin\Debug\net8.0\ERPServer.Application.dll
+C:\ERP\ERPServer\content\ERPServer.Application\bin\Debug\net8.0\ERPServer.Application.pdb
+C:\ERP\ERPServer\content\ERPServer.Application\bin\Debug\net8.0\ERPServer.Domain.dll
+C:\ERP\ERPServer\content\ERPServer.Application\bin\Debug\net8.0\ERPServer.Domain.pdb
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\ERPServer.Application.csproj.AssemblyReference.cache
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\ERPServer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\ERPServer.Application.AssemblyInfoInputs.cache
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\ERPServer.Application.AssemblyInfo.cs
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\ERPServer.Application.csproj.CoreCompileInputs.cache
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\ERPServer.Application.sourcelink.json
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\ERPServe.91329C4E.Up2Date
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\ERPServer.Application.dll
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\refint\ERPServer.Application.dll
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\ERPServer.Application.pdb
+C:\ERP\ERPServer\content\ERPServer.Application\obj\Debug\net8.0\ref\ERPServer.Application.dll
