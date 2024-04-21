@@ -1,0 +1,329 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ERP\\ERPServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B590CB6E-9912-4BB1-9E1D-71DBD2191AAC}|content\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\content\\erpserver.webapi\\abstractions\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B590CB6E-9912-4BB1-9E1D-71DBD2191AAC}|content\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:content\\erpserver.webapi\\abstractions\\apicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B590CB6E-9912-4BB1-9E1D-71DBD2191AAC}|content\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\content\\erpserver.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B590CB6E-9912-4BB1-9E1D-71DBD2191AAC}|content\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:content\\erpserver.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B590CB6E-9912-4BB1-9E1D-71DBD2191AAC}|content\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\content\\erpserver.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B590CB6E-9912-4BB1-9E1D-71DBD2191AAC}|content\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:content\\erpserver.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B590CB6E-9912-4BB1-9E1D-71DBD2191AAC}|content\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\content\\erpserver.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B590CB6E-9912-4BB1-9E1D-71DBD2191AAC}|content\\ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:content\\erpserver.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\erp\\erpserver\\content\\erpserver.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:content\\erpserver.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\erp\\erpserver\\content\\erpserver.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:content\\erpserver.infrastructure\\services\\jwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\erp\\erpserver\\content\\erpserver.infrastructure\\options\\jwttokenoptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:content\\erpserver.infrastructure\\options\\jwttokenoptionssetup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\erp\\erpserver\\content\\erpserver.infrastructure\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:content\\erpserver.infrastructure\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\erp\\erpserver\\content\\erpserver.infrastructure\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:content\\erpserver.infrastructure\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\erp\\erpserver\\content\\erpserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFD8E7A0-1876-4A2F-8CC3-42DB34467E38}|content\\ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:content\\erpserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\content\\erpserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:content\\erpserver.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\content\\erpserver.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:content\\erpserver.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\content\\erpserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:content\\erpserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\content\\erpserver.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:content\\erpserver.application\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\content\\erpserver.application\\features\\auth\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:content\\erpserver.application\\features\\auth\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\content\\erpserver.application\\features\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46553679-F60D-4F40-8DAF-9AA3034FAB88}|content\\ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:content\\erpserver.application\\features\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0FE6691-B39C-4834-B53F-76774536689E}|content\\ERPServer.Domain\\ERPServer.Domain.csproj|c:\\erp\\erpserver\\content\\erpserver.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0FE6691-B39C-4834-B53F-76774536689E}|content\\ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:content\\erpserver.domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiController.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.WebAPI\\Abstractions\\ApiController.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.WebAPI\\Abstractions\\ApiController.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.WebAPI\\Abstractions\\ApiController.cs",
+              "RelativeToolTip": "content\\ERPServer.WebAPI\\Abstractions\\ApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:47:56.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "content\\ERPServer.WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:47:24.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.WebAPI\\Program.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.WebAPI\\Program.cs",
+              "RelativeToolTip": "content\\ERPServer.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAQwCIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:46:32.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "content\\ERPServer.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.WebAPI\\appsettings.json",
+              "RelativeToolTip": "content\\ERPServer.WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-21T02:46:08.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "content\\ERPServer.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwDYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:44:45.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtProvider.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\Services\\JwtProvider.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Infrastructure\\Services\\JwtProvider.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\Services\\JwtProvider.cs",
+              "RelativeToolTip": "content\\ERPServer.Infrastructure\\Services\\JwtProvider.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAuwDMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:44:29.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "JwtTokenOptionsSetup.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\Options\\JwtTokenOptionsSetup.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Infrastructure\\Options\\JwtTokenOptionsSetup.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\Options\\JwtTokenOptionsSetup.cs",
+              "RelativeToolTip": "content\\ERPServer.Infrastructure\\Options\\JwtTokenOptionsSetup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:44:23.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\Options\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Infrastructure\\Options\\JwtOptions.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\Options\\JwtOptions.cs",
+              "RelativeToolTip": "content\\ERPServer.Infrastructure\\Options\\JwtOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:44:21.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppUserConfiguration.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "RelativeToolTip": "content\\ERPServer.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:44:07.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "content\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:43:35.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\Services\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Application\\Services\\IJwtProvider.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\Services\\IJwtProvider.cs",
+              "RelativeToolTip": "content\\ERPServer.Application\\Services\\IJwtProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:43:20.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "content\\ERPServer.Application\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:43:19.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "content\\ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:43:10.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Application\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "content\\ERPServer.Application\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:42:53.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginCommandValidator.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "RelativeToolTip": "content\\ERPServer.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:42:43.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "content\\ERPServer.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:41:28.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\content\\ERPServer.Domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "content\\ERPServer.Domain\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\content\\ERPServer.Domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "content\\ERPServer.Domain\\Entities\\AppUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T02:41:02.653Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

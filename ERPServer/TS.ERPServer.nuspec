@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TS.ERPServer</id>
+    <version>8.0.3</version>
+    <title>ASP.NET Clean Architecture Solution</title>
+    <authors>Taner Saydam</authors>
+    <owners>Taner Saydam</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>images/icon.jpg</icon>
+    <readme>README.md</readme>
+    <projectUrl>http://www.tanersaydam.net/</projectUrl>
+    <description>A template for creating projects using Clean Architecture.</description>
+    <releaseNotes>Initial release of the project template.</releaseNotes>
+    <language>en-US</language>
+    <tags>Project Solution for Clean Architecture</tags>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/TanerSaydam/ERPServer.Template" />
+  </metadata>
+</package>
