@@ -2,6 +2,10 @@ a{
     cursor: pointer;
 }
 
+.me-1{
+    margin-right: 5px;
+}
+
 .me-2{
     margin-right: 7px;
 }

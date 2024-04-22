@@ -43,6 +43,7 @@ export class CustomersComponent implements OnInit {
         this.swal.callToast(res);
         this.createModel = new CustomerModel();
         this.createModalCloseBtn?.nativeElement.click();
+        this.getAll();
       });
     }
   }
