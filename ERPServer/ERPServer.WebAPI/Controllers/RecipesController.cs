@@ -1,8 +1,4 @@
-﻿using ERPServer.Application.Features.Products.CreateProduct;
-using ERPServer.Application.Features.Products.DeleteProductById;
-using ERPServer.Application.Features.Products.GetAllProduct;
-using ERPServer.Application.Features.Products.UpdateProduct;
-using ERPServer.Application.Features.Recipes.CreateRecipe;
+﻿using ERPServer.Application.Features.Recipes.CreateRecipe;
 using ERPServer.Application.Features.Recipes.DeleteRecipeById;
 using ERPServer.Application.Features.Recipes.GetAllRecipe;
 using ERPServer.WebAPI.Abstractions;
