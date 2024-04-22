@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\ERP\\ERPServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\erpserver.webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver.webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\customers\\createcustomer\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\customers\\createcustomer\\createcustomercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\customers\\createcustomer\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\customers\\createcustomer\\createcustomercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\customers\\deletecustomerbyid\\deletecustomerbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\customers\\deletecustomerbyid\\deletecustomerbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,53 +43,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "ERPServer.Application\\Mapping\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:15:49.301Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "ERPServer.WebAPI\\Controllers\\CustomersController.cs",
               "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Controllers\\CustomersController.cs",
               "RelativeToolTip": "ERPServer.WebAPI\\Controllers\\CustomersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABBAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwB4AAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:13:17.262Z",
+              "WhenOpened": "2024-04-22T06:23:34.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateCustomerCommandValidator.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Customers\\CreateCustomer\\CreateCustomerCommandValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "DeleteCustomerByIdCommand.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Customers\\DeleteCustomerById\\DeleteCustomerByIdCommand.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Customers\\DeleteCustomerById\\DeleteCustomerByIdCommand.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Customers\\DeleteCustomerById\\DeleteCustomerByIdCommand.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Customers\\DeleteCustomerById\\DeleteCustomerByIdCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:12:40.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateCustomerCommand.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Customers\\CreateCustomer\\CreateCustomerCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T06:08:12.254Z",
+              "WhenOpened": "2024-04-22T06:21:32.133Z",
               "EditorCaption": ""
             }
           ]
