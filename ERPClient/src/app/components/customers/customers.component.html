@@ -2,7 +2,7 @@
     <app-section sectionTitle="Müşteri Listesi">
         <div class="form-group row">
             <div class="col-9">
-                <button class="btn btn-dark">
+                <button class="btn btn-dark" data-toggle="modal" data-target="#createModal">
                     <i class="fa-solid fa-plus me-1"></i>
                     Müşteri Ekle
                 </button>
@@ -29,26 +29,91 @@
                 </thead>
                 <tbody>
                     @for(customer of customers | customer: search ;track customer){
-                        <tr>
-                            <td>{{$index + 1}}</td>
-                            <td>{{customer.name}}</td>
-                            <td>{{customer.taxDepartment}}</td>
-                            <td>{{customer.taxNumber}}</td>
-                            <td>{{customer.city}}</td>
-                            <td>{{customer.town}}</td>
-                            <td>{{customer.fullAddress}}</td>
-                            <td>
-                                <button class="btn btn-outline-primary btn-sm">
-                                    <i class="fa-solid fa-edit me-1"></i>
-                                </button>
-                                <button class="btn btn-outline-danger btn-sm">
-                                    <i class="fa-solid fa-trash"></i>
-                                </button>
-                            </td>
-                        </tr>
-                    }                    
+                    <tr>
+                        <td>{{$index + 1}}</td>
+                        <td>{{customer.name}}</td>
+                        <td>{{customer.taxDepartment}}</td>
+                        <td>{{customer.taxNumber}}</td>
+                        <td>{{customer.city}}</td>
+                        <td>{{customer.town}}</td>
+                        <td>{{customer.fullAddress}}</td>
+                        <td>
+                            <button class="btn btn-outline-primary btn-sm">
+                                <i class="fa-solid fa-edit me-1"></i>
+                            </button>
+                            <button class="btn btn-outline-danger btn-sm">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    }
                 </tbody>
             </table>
         </div>
     </app-section>
 </app-blank>
+
+<!-- Create Modal -->
+<div class="modal fade" id="createModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Modal title</h1>
+                <button type="button" #createModalCloseBtn class="btn btn-outline-danger" data-dismiss="modal">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <form formValidate #createForm="ngForm" autocomplete="off" (ngSubmit)="create(createForm)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Müşteri Adı</label>
+                        <input type="text" required minlength="3" class="form-control" name="name">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                    <div class="form-group mt-2 row">
+                        <div class="col-6">
+                            <div class="form-group mt-2">
+                                <label>Vergi Dairesi</label>
+                                <input type="text" required minlength="3" class="form-control" name="taxDepartment">
+                                <div class="invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group mt-2">
+                                <label>Vergi Numarası</label>
+                                <input type="text" class="form-control" name="taxNumber" required minlength="10" maxlength="11">
+                                <div class="invalid-feedback"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group mt-2 row">
+                        <div class="col-6">
+                            <div class="form-group mt-2">
+                                <label>Şehir</label>
+                                <input type="text" required minlength="3" class="form-control" name="city">
+                                <div class="invalid-feedback"></div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group mt-2">
+                                <label>İlçe</label>
+                                <input type="text" required minlength="3" class="form-control" name="town">
+                                <div class="invalid-feedback"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group mt-2">
+                        <label>Açık Adres</label>
+                        <textarea class="form-control" required minlength="3" name="fullAddress" rows="5"></textarea>
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">                    
+                    <button type="submit" class="btn btn-dark w-100">Kaydet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
