@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ERP\\ERPServer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\customers\\getallcustomer\\getallcustomerqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\customers\\getallcustomer\\getallcustomerqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\erpserver.webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver.webapi\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\customers\\getallcustomer\\getallcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\customers\\getallcustomer\\getallcustomerquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +43,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAllCustomerQueryHandler.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T05:48:04.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "ERPServer.WebAPI\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "ERPServer.WebAPI\\Controllers\\CustomersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T05:47:03.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetAllCustomerQuery.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQuery.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQuery.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQuery.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T05:44:58.994Z",
+              "EditorCaption": ""
             }
           ]
         }
