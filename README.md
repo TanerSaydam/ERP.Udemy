@@ -5,7 +5,7 @@ Bu repo udemy içinde hazırladığım ERP uygulamasına aittir.
 Eğitimde kullanılan TS.CleanArchitecture template'i için aşağıdaki kurulum kodunu kullanabilirsiniz
 
 ```bash
-dotnet new install TS.CleanArchitecture::8.0.3
+dotnet new install TS.CleanArchitecture::8.0.9
 ```
 
 İyi eğitimler.
