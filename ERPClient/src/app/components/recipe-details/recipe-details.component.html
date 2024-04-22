@@ -1,0 +1,105 @@
+<app-blank pageName="{{recipe.product.name}} Reçete Detayı" [routes]="['Reçeteler',recipe.product.name + ' Reçete Detayı']">
+    <app-section sectionTitle="{{recipe.product.name}} Reçete Detayı">
+
+        <div class="form-group mt-2 row">
+            @if(!isUpdateFormActive){
+                <!-- Create Form -->
+                <div class="col-9">
+                    <form #createForm="ngForm" autocomplete="off" (ngSubmit)="create(createForm)">
+                        <div class="row">
+                            <div class="col-4">
+                                <label>Ürün</label>
+                                <select class="form-control" [(ngModel)]="createModel.productId" name="productId" required>
+                                    @for(product of products; track product){
+                                    <option [value]="product.id">
+                                        {{product.name}}
+                                    </option>
+                                    }
+                                </select>
+                                <div class="invalid-feedback"></div>
+                            </div>
+                            <div class="col-4">
+                                <label>Adet</label>
+                                <input type="text" class="form-control" name="quantity" [(ngModel)]="createModel.quantity"
+                                    required>
+                                <div class="invalid-feedback"></div>
+                            </div>
+                            <div class="col-4">
+                                <label>İşlemler</label>
+                                <br>
+                                <button type="submit" class="btn btn-dark">Ekle</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            }@else {
+                <!-- Update Form -->
+                <div class="col-9">
+                   <form #updateForm="ngForm" autocomplete="off" (ngSubmit)="update(updateForm)">
+                       <div class="row">
+                           <div class="col-4">
+                               <label>Ürün</label>
+                               <select class="form-control" [(ngModel)]="updateModel.productId" name="updateProductId" required>
+                                   @for(product of products; track product){
+                                   <option [value]="product.id">
+                                       {{product.name}}
+                                   </option>
+                                   }
+                               </select>
+                               <div class="invalid-feedback"></div>
+                           </div>
+                           <div class="col-4">
+                               <label>Adet</label>
+                               <input type="text" class="form-control" name="updateQuantity" [(ngModel)]="updateModel.quantity"
+                                   required>
+                               <div class="invalid-feedback"></div>
+                           </div>
+                           <div class="col-4">
+                               <label>İşlemler</label>
+                               <br>
+                               <button type="submit" class="btn btn-dark me-1">Güncelle</button>
+                               <button type="button" class="btn btn-danger" (click)="isUpdateFormActive = false">Vazgeç</button>
+                           </div>
+                       </div>
+                   </form>
+                </div>
+            }
+
+            <div class="col-3">
+                <input [(ngModel)]="search" type="search" class="form-control" placeholder="Aranacak değer girin...">
+            </div>
+        </div>
+
+        <div class="form-group mt-2">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Ürün Adı</th>
+                        <th>Ürün Adedi</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for(data of recipe.details | recipeDetail: search ;track data){
+                    <tr>
+                        <td>{{$index + 1}}</td>
+                        <td>{{data.product.name}}</td>
+                        <td>{{data.quantity}}</td>
+                        <td>
+                            @if(!isUpdateFormActive){
+                                <button (click)="get(data)" class="btn btn-outline-primary btn-sm me-1">
+                                    <i class="fa-solid fa-edit"></i>
+                                </button>
+                                <button (click)="deleteById(data)" class="btn btn-outline-danger btn-sm">
+                                    <i class="fa-solid fa-trash"></i>
+                                </button>
+                            }
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </app-section>
+</app-blank>

@@ -28,6 +28,10 @@
                         <td>{{$index + 1}}</td>
                         <td>{{data.product.name}}</td>
                         <td>
+                            <button routerLink="/recipe-details/{{data.id}}" class="btn btn-dark btn-sm me-1">
+                                <i class="fa-solid fa-eye me-1"></i>
+                                Detay
+                            </button>
                             <button (click)="deleteById(data)" class="btn btn-outline-danger btn-sm">
                                 <i class="fa-solid fa-trash"></i>
                             </button>
