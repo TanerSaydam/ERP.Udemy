@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ERP\\ERPServer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Migrations\\20240422072138_mg5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERPServer.Infrastructure\\Migrations\\20240422072138_mg5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1144193B-60F4-4B1B-9590-626B5797E58A}|ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\erp\\erpserver\\erpserver.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1144193B-60F4-4B1B-9590-626B5797E58A}|ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:erpserver.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1144193B-60F4-4B1B-9590-626B5797E58A}|ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\erp\\erpserver\\erpserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1144193B-60F4-4B1B-9590-626B5797E58A}|ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:erpserver.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1144193B-60F4-4B1B-9590-626B5797E58A}|ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\erp\\erpserver\\erpserver.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1144193B-60F4-4B1B-9590-626B5797E58A}|ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:erpserver.infrastructure\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|c:\\erp\\erpserver\\erpserver.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|c:\\erp\\erpserver\\erpserver.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|c:\\erp\\erpserver\\erpserver.domain\\enums\\producttypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver.domain\\enums\\producttypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +59,97 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240422072138_mg5.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Migrations\\20240422072138_mg5.cs",
+              "RelativeDocumentMoniker": "ERPServer.Infrastructure\\Migrations\\20240422072138_mg5.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Migrations\\20240422072138_mg5.cs",
+              "RelativeToolTip": "ERPServer.Infrastructure\\Migrations\\20240422072138_mg5.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:21:38.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ERPServer.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "ERPServer.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:21:03.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ERPServer.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:20:50.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "ERPServer.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "ERPServer.Infrastructure\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:18:27.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "ERPServer.Domain\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "ERPServer.Domain\\Repositories\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:18:02.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductTypeEnum.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Enums\\ProductTypeEnum.cs",
+              "RelativeDocumentMoniker": "ERPServer.Domain\\Enums\\ProductTypeEnum.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Enums\\ProductTypeEnum.cs",
+              "RelativeToolTip": "ERPServer.Domain\\Enums\\ProductTypeEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:16:03.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "ERPServer.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "ERPServer.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T07:15:23.524Z",
+              "EditorCaption": ""
             }
           ]
         }
