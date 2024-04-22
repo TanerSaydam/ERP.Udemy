@@ -180,6 +180,8 @@ namespace ERPServer.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ProductId");
+
                     b.ToTable("Recipes");
                 });
 
@@ -227,6 +229,17 @@ namespace ERPServer.Infrastructure.Migrations
                     b.ToTable("Roles");
                 });
 
+            modelBuilder.Entity("ERPServer.Domain.Entities.Recipe", b =>
+                {
+                    b.HasOne("ERPServer.Domain.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
             modelBuilder.Entity("ERPServer.Domain.Entities.RecipeDetail", b =>
                 {
                     b.HasOne("ERPServer.Domain.Entities.Product", "Product")
@@ -236,7 +249,7 @@ namespace ERPServer.Infrastructure.Migrations
                         .IsRequired();
 
                     b.HasOne("ERPServer.Domain.Entities.Recipe", null)
-                        .WithMany("RecipeDetails")
+                        .WithMany("Details")
                         .HasForeignKey("RecipeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -246,7 +259,7 @@ namespace ERPServer.Infrastructure.Migrations
 
             modelBuilder.Entity("ERPServer.Domain.Entities.Recipe", b =>
                 {
-                    b.Navigation("RecipeDetails");
+                    b.Navigation("Details");
                 });
 #pragma warning restore 612, 618
         }

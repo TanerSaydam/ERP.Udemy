@@ -7,6 +7,6 @@ internal sealed class RecipeConfiguration : IEntityTypeConfiguration<Recipe>
 {
     public void Configure(EntityTypeBuilder<Recipe> builder)
     {
-        
+        builder.HasOne(p=> p.Product).WithMany().OnDelete(DeleteBehavior.NoAction);
     }
 }

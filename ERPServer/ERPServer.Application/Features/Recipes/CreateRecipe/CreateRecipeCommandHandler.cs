@@ -22,7 +22,7 @@ internal sealed class CreateRecipeCommandHandler(
         Recipe recipe = new()
         {
             ProductId = request.ProductId,
-            RecipeDetails = request.Details.Select(s =>
+            Details = request.Details.Select(s =>
                 new RecipeDetail()
                 {                    
                     ProductId = s.ProductId,
