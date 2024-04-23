@@ -142,7 +142,6 @@ C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.GeneratedMSB
 C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.AssemblyInfoInputs.cache
 C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.AssemblyInfo.cs
 C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.csproj.CoreCompileInputs.cache
-C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.sourcelink.json
 C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\staticwebassets.build.json
