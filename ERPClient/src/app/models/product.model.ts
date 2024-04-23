@@ -4,6 +4,7 @@ export class ProductModel{
     type: ProductTypeEnum = new ProductTypeEnum();
     typeValue: number = 1;
     quantity: number = 0;
+    stock: number = 0;
 }
 
 export class ProductTypeEnum{
