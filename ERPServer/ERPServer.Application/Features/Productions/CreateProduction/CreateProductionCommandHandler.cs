@@ -50,22 +50,23 @@ internal sealed class CreateProductionCommandHandler(
 
                     decimal quantity = movements.Where(p => p.DepotId == depotId).Sum(s => s.NumberOfEntries - s.NumberOfOutputs);
 
-                    decimal totalPrice = 
+                    decimal totalAmount = 
                         movements
                         .Where(p => p.DepotId == depotId && p.NumberOfEntries > 0)
-                        .Sum(s => s.Price);
+                        .Sum(s => s.Price * s.NumberOfEntries);
 
                     decimal totalEntiresQuantity =
                         movements
                         .Where(p => p.DepotId == depotId && p.NumberOfEntries > 0)
                         .Sum(s => s.NumberOfEntries);
 
-                    decimal price = totalPrice / totalEntiresQuantity;
+                    decimal price = totalAmount / totalEntiresQuantity;
 
 
                     StockMovement stockMovement = new()
                     {
                         ProductionId = production.Id,
+                        ProductId = item.ProductId,
                         DepotId = depotId,
                         Price = price
                     };

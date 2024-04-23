@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "C:\\ERP\\ERPServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\erpserver.webapi\\controllers\\productionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver.webapi\\controllers\\productionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Migrations\\20240423075953_mg16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERPServer.Infrastructure\\Migrations\\20240423075953_mg16.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\productions\\deleteproductionbyid\\deleteproductionbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\productions\\deleteproductionbyid\\deleteproductionbyidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\erpserver.webapi\\middlewares\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver.webapi\\middlewares\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\productions\\createproduction\\createproductioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\productions\\createproduction\\createproductioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\productions\\deleteproductionbyid\\deleteproductionbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\productions\\deleteproductionbyid\\deleteproductionbyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\productions\\createproduction\\createproductioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\productions\\createproduction\\createproductioncommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|c:\\erp\\erpserver\\erpserver.domain\\entities\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver.domain\\entities\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\productions\\getallproduction\\getallproductionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\productions\\getallproduction\\getallproductionquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\productions\\getallproduction\\getallproductionqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\productions\\getallproduction\\getallproductionqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,118 +51,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductionsController.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Controllers\\ProductionsController.cs",
-              "RelativeDocumentMoniker": "ERPServer.WebAPI\\Controllers\\ProductionsController.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Controllers\\ProductionsController.cs",
-              "RelativeToolTip": "ERPServer.WebAPI\\Controllers\\ProductionsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABFAAAA",
+              "Title": "ExceptionHandler.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Middlewares\\ExceptionHandler.cs",
+              "RelativeDocumentMoniker": "ERPServer.WebAPI\\Middlewares\\ExceptionHandler.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Middlewares\\ExceptionHandler.cs",
+              "RelativeToolTip": "ERPServer.WebAPI\\Middlewares\\ExceptionHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:00:24.052Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "20240423075953_mg16.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Migrations\\20240423075953_mg16.cs",
-              "RelativeDocumentMoniker": "ERPServer.Infrastructure\\Migrations\\20240423075953_mg16.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Migrations\\20240423075953_mg16.cs",
-              "RelativeToolTip": "ERPServer.Infrastructure\\Migrations\\20240423075953_mg16.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:59:53.607Z",
+              "WhenOpened": "2024-04-23T08:20:53.652Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DeleteProductionByIdCommandHandler.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\DeleteProductionById\\DeleteProductionByIdCommandHandler.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Productions\\DeleteProductionById\\DeleteProductionByIdCommandHandler.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\DeleteProductionById\\DeleteProductionByIdCommandHandler.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Productions\\DeleteProductionById\\DeleteProductionByIdCommandHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAACHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:59:41.395Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Mapping\\MappingProfile.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "ERPServer.Application\\Mapping\\MappingProfile.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAkwDYAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:58:58.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CreateProductionCommandHandler.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAQwBMAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:58:49.076Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DeleteProductionByIdCommand.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\DeleteProductionById\\DeleteProductionByIdCommand.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Productions\\DeleteProductionById\\DeleteProductionByIdCommand.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\DeleteProductionById\\DeleteProductionByIdCommand.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Productions\\DeleteProductionById\\DeleteProductionByIdCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:56:00.943Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Production.cs",
               "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Entities\\Production.cs",
               "RelativeDocumentMoniker": "ERPServer.Domain\\Entities\\Production.cs",
               "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Entities\\Production.cs",
               "RelativeToolTip": "ERPServer.Domain\\Entities\\Production.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:37:00.324Z",
+              "WhenOpened": "2024-04-23T08:14:10.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateProductionCommand.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommand.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommand.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommand.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommand.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAA1wAkAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "CreateProductionCommandHandler.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAowFkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:36:26.897Z",
+              "WhenOpened": "2024-04-23T08:13:59.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GetAllProductionQuery.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQuery.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQuery.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQuery.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQuery.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "GetAllProductionQueryHandler.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQueryHandler.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQueryHandler.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQueryHandler.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQueryHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T07:34:31.134Z",
+              "WhenOpened": "2024-04-23T08:08:57.161Z",
               "EditorCaption": ""
             }
           ]

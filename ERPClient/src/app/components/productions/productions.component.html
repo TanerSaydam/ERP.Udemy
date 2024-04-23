@@ -1,0 +1,93 @@
+<app-blank pageName="Üretim" [routes]="['Üretim']">
+    <app-section sectionTitle="Üretim Listesi">
+        <div class="form-group row">
+            <div class="col-9">
+                <button class="btn btn-dark" data-toggle="modal" data-target="#createModal">
+                    <i class="fa-solid fa-plus me-1"></i>
+                    Üretim Yap
+                </button>
+            </div>
+
+            <div class="col-3">
+                <input [(ngModel)]="search" type="search" class="form-control" placeholder="Aranacak değer girin...">
+            </div>
+        </div>
+
+        <div class="form-group mt-2">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Tarih</th>
+                        <th>Ürün Adı</th>
+                        <th>Depo Adı</th>
+                        <th>Adet</th>                        
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for(data of productions | production: search ;track data){
+                    <tr>
+                        <td>{{$index + 1}}</td>
+                        <td>{{data.createdAt | date:'dd.MM.yyyy HH:mm'}}</td>
+                        <td>{{data.product.name}}</td>
+                        <td>{{data.depot.name}}</td>
+                        <td>{{data.quantity}}</td>
+                        <td>
+                            <button (click)="deleteById(data)" class="btn btn-outline-danger btn-sm">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </app-section>
+</app-blank>
+
+<!-- Create Modal -->
+<div class="modal fade" id="createModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Üretim Formu</h1>
+                <button type="button" #createModalCloseBtn class="btn btn-outline-danger" data-dismiss="modal">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <form formValidate #createForm="ngForm" autocomplete="off" (ngSubmit)="create(createForm)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Depo</label>
+                        <select class="form-control" name="depotId" [(ngModel)]="createModel.depotId" required>
+                            @for(depot of depots; track depot){
+                                <option [value]="depot.id">{{depot.name}}</option>
+                            }
+                        </select>
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Ürün</label>
+                        <select class="form-control" name="productId" [(ngModel)]="createModel.productId" required>
+                            @for(product of products; track product){
+                                <option [value]="product.id">{{product.name}}</option>
+                            }
+                        </select>
+                        <div class="invalid-feedback"></div>
+                    </div>                    
+                   
+                    <div class="form-group mt-2">
+                        <label>Adet</label>
+                        <input class="form-control" required [(ngModel)]="createModel.quantity" name="quantity">
+                        <div class="invalid-feedback"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">                    
+                    <button type="submit" class="btn btn-dark w-100">Kaydet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -8,5 +8,5 @@ public sealed class Production : Entity
     public decimal Quantity { get; set; }
     public Guid DepotId { get; set; }
     public Depot? Depot { get; set; }
-    public DateTime CreatedAt { get; set; }
+    public DateTime CreatedAt { get; set; } = DateTime.Now;
 }
