@@ -12,4 +12,6 @@ public sealed class StockMovement : Entity
     public decimal Price { get; set; }
     public Guid? InvoiceId { get; set; }
     public Invoice? Invoice { get; set; }
+    public Guid? ProductionId { get; set; }
+    public Production? Production { get; set; }
 }
