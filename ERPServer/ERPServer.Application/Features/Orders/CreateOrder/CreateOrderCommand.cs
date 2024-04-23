@@ -5,6 +5,6 @@ using TS.Result;
 namespace ERPServer.Application.Features.Orders.CreateOrder;
 public sealed record CreateOrderCommand(
     Guid CustomerId,
-    DateTime Date,
-    DateTime DeliveryDate,
+    DateOnly Date,
+    DateOnly DeliveryDate,
     List<OrderDetailDto> Details) : IRequest<Result<string>>;

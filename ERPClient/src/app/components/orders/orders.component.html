@@ -1,0 +1,276 @@
+<app-blank pageName="Siparişler" [routes]="['Siparişler']">
+    <app-section sectionTitle="Sipariş Listesi">
+        <div class="form-group row">
+            <div class="col-9">
+                <button class="btn btn-dark" data-toggle="modal" data-target="#createModal">
+                    <i class="fa-solid fa-plus me-1"></i>
+                    Sipariş Ekle
+                </button>
+            </div>
+
+            <div class="col-3">
+                <input [(ngModel)]="search" type="search" class="form-control" placeholder="Aranacak değer girin...">
+            </div>
+        </div>
+
+        <div class="form-group mt-2">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Tarih</th>
+                        <th>Sipariş Numarası</th>
+                        <th>Müşteri</th>
+                        <th>Teslim Tarihi</th>
+                        <th>Durumu</th>
+                        <th>İşlemler</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @for(data of orders | order: search ;track data){
+                    <tr>
+                        <td>{{$index + 1}}</td>
+                        <td>{{data.date | date:'dd.MM.yyyy'}}</td>
+                        <td>{{data.number}}</td>
+                        <td>{{data.customer.name}}</td>
+                        <td>{{data.deliveryDate | date:'dd.MM.yyyy'}}</td>
+                        <td>{{data.status.name}}</td>
+                        <td>
+                            <button data-toggle="modal" data-target="#updateModal" (click)="get(data)" class="btn btn-outline-primary btn-sm me-1">
+                                <i class="fa-solid fa-edit"></i>
+                            </button>
+                            <button (click)="deleteById(data)" class="btn btn-outline-danger btn-sm">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </app-section>
+</app-blank>
+
+<!-- Create Modal -->
+<div class="modal fade" id="createModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Sipariş Ekleme Formu</h1>
+                <button type="button" #createModalCloseBtn class="btn btn-outline-danger" data-dismiss="modal">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <form formValidate #createForm="ngForm" autocomplete="off" (ngSubmit)="create(createForm)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Tarih</label>
+                        <input type="date" required [(ngModel)]="createModel.date" class="form-control" name="date">
+                        <div class="invalid-feedback"></div>
+                    </div>   
+                    
+                    <div class="form-group mt-2">
+                        <label>Müşteri</label>
+                        <select class="form-control" name="customer" [(ngModel)]="createModel.customerId" required>
+                            @for(customer of customers; track customer){
+                                <option [value]="customer.id">{{customer.name}}</option>
+                            }
+                        </select>
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <div class="form-group mt-2">
+                        <label>Teslim Tarih</label>
+                        <input type="date" required [(ngModel)]="createModel.deliveryDate" class="form-control" name="deliveryDate">
+                        <div class="invalid-feedback"></div>
+                    </div>   
+
+                    <hr>
+
+                    <div class="form-group mt-2">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Ürün</label>
+                                    <select class="form-control" [(ngModel)]="createDetail.productId" [ngModelOptions]="{standalone:true}">
+                                        @for(product of products; track product){
+                                            <option [value]="product.id">{{product.name}}</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Adet</label>
+                                    <input class="form-control" [(ngModel)]="createDetail.quantity" [ngModelOptions]="{standalone:true}">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Birim Fiyatı</label>
+                                    <input class="form-control" [(ngModel)]="createDetail.price" [ngModelOptions]="{standalone:true}">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Toplam</label>
+                                    <br>
+                                    <label>{{(createDetail.price * createDetail.quantity) | trCurrency:'₺': true}}</label>
+                                </div>
+                            </div>
+                            <div class="col-12 mt-2">
+                                <button type="button" class="btn btn-dark" (click)="addDetail()">Ekle</button>
+                            </div>
+                        </div>
+
+                        <div class="mt-2">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Ürün Adı</th>
+                                        <th>Adedi</th>
+                                        <th>Birim Fiyatı</th>
+                                        <th>Toplam</th>
+                                        <th>İşlemler</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @for(data of createModel.details;track data){
+                                        <tr>
+                                            <td>{{$index + 1}}</td>
+                                            <td>{{data.product.name}}</td>
+                                            <td>{{data.quantity}}</td>
+                                            <td>{{data.price| trCurrency:'₺': true}}</td>
+                                            <td>{{(data.price * data.quantity) | trCurrency:'₺': true}}</td>
+                                            <td>
+                                                <button (click)="removeDetail($index)" class="btn btn-outline-danger btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>     
+                </div>
+                <div class="modal-footer">                    
+                    <button type="submit" class="btn btn-dark w-100">Kaydet</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Update Modal -->
+<div class="modal fade" id="updateModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Sipariş Güncelleme Formu</h1>
+                <button type="button" #updateModalCloseBtn class="btn btn-outline-danger" data-dismiss="modal">
+                    <i class="fa-solid fa-x"></i>
+                </button>
+            </div>
+            <form formValidate #updateForm="ngForm" autocomplete="off" (ngSubmit)="update(updateForm)">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Tarih</label>
+                        <input type="date" required [(ngModel)]="updateModel.date" class="form-control" name="updateDate">
+                        <div class="invalid-feedback"></div>
+                    </div>   
+                    
+                    <div class="form-group mt-2">
+                        <label>Müşteri</label>
+                        <select class="form-control" name="updateCustomer" [(ngModel)]="updateModel.customerId" required>
+                            @for(customer of customers; track customer){
+                                <option [value]="customer.id">{{customer.name}}</option>
+                            }
+                        </select>
+                        <div class="invalid-feedback"></div>
+                    </div>
+
+                    <div class="form-group mt-2">
+                        <label>Teslim Tarih</label>
+                        <input type="date" required [(ngModel)]="updateModel.deliveryDate" class="form-control" name="updateDeliveryDate">
+                        <div class="invalid-feedback"></div>
+                    </div>   
+
+                    <hr>
+
+                    <div class="form-group mt-2">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Ürün</label>
+                                    <select class="form-control" [(ngModel)]="updateDetail.productId" [ngModelOptions]="{standalone:true}">
+                                        @for(product of products; track product){
+                                            <option [value]="product.id">{{product.name}}</option>
+                                        }
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Adet</label>
+                                    <input class="form-control" [(ngModel)]="updateDetail.quantity" [ngModelOptions]="{standalone:true}">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Birim Fiyatı</label>
+                                    <input class="form-control" [(ngModel)]="updateDetail.price" [ngModelOptions]="{standalone:true}">
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <label>Toplam</label>
+                                    <br>
+                                    <label>{{(updateDetail.price * updateDetail.quantity) | trCurrency:'₺': true}}</label>
+                                </div>
+                            </div>
+                            <div class="col-12 mt-2">
+                                <button type="button" class="btn btn-dark" (click)="addUpdateDetail()">Ekle</button>
+                            </div>
+                        </div>
+
+                        <div class="mt-2">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Ürün Adı</th>
+                                        <th>Adedi</th>
+                                        <th>Birim Fiyatı</th>
+                                        <th>Toplam</th>
+                                        <th>İşlemler</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @for(data of updateModel.details;track data){
+                                        <tr>
+                                            <td>{{$index + 1}}</td>
+                                            <td>{{data.product.name}}</td>
+                                            <td>{{data.quantity}}</td>
+                                            <td>{{data.price| trCurrency:'₺': true}}</td>
+                                            <td>{{(data.price * data.quantity) | trCurrency:'₺': true}}</td>
+                                            <td>
+                                                <button (click)="removeUpdateDetail($index)" class="btn btn-outline-danger btn-sm">
+                                                    <i class="fa-solid fa-trash"></i>
+                                                </button>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>     
+                </div>
+                <div class="modal-footer">                    
+                    <button type="submit" class="btn btn-primary w-100">Güncelle</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -26,7 +26,7 @@ internal sealed class CreateOrderCommandHandler(
         if(lastOrder is not null) lastOrderNumber = lastOrder.OrderNumber;        
 
         Order order = mapper.Map<Order>(request);
-        order.OrderNumber = lastOrderNumber++;
+        order.OrderNumber = lastOrderNumber + 1;
         order.OrderNumberYear = request.Date.Year;
 
         await orderRepository.AddAsync(order, cancellationToken);

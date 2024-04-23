@@ -25,7 +25,7 @@ public sealed class MappingProfile : Profile
 
         CreateMap<CreateProductCommand, Product>()
             .ForMember(member => member.Type,
-                options => 
+                options =>
                 options.MapFrom(p => ProductTypeEnum.FromValue(p.TypeValue)));
 
         CreateMap<UpdateProductCommand, Product>()
@@ -43,17 +43,12 @@ public sealed class MappingProfile : Profile
             {
                 Price = s.Price,
                 ProductId = s.ProductId,
-                Qantity = s.Quantity
+                Quantity = s.Quantity
             }).ToList()));
 
         CreateMap<UpdateOrderCommand, Order>()
-            .ForMember(member => member.Details,
-            options =>
-            options.MapFrom(p => p.Details.Select(s => new OrderDetail
-            {
-                Price = s.Price,
-                ProductId = s.ProductId,
-                Qantity = s.Quantity
-            }).ToList()));
+            .ForMember(member =>
+            member.Details,
+            options => options.Ignore());
     }
 }

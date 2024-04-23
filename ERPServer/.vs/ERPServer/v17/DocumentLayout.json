@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\ERP\\ERPServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\erpserver.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\orders\\updateorder\\updateordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\orders\\updateorder\\updateordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Migrations\\20240423034200_mg11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERPServer.Infrastructure\\Migrations\\20240423034200_mg11.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1144193B-60F4-4B1B-9590-626B5797E58A}|ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|c:\\erp\\erpserver\\erpserver.infrastructure\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1144193B-60F4-4B1B-9590-626B5797E58A}|ERPServer.Infrastructure\\ERPServer.Infrastructure.csproj|solutionrelative:erpserver.infrastructure\\configurations\\orderdetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|c:\\erp\\erpserver\\erpserver.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver.domain\\entities\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|c:\\erp\\erpserver\\erpserver.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,14 +59,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "ERPServer.WebAPI\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "ERPServer.WebAPI\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAuwAQAAAAkAAAA",
+              "Title": "UpdateOrderCommandHandler.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwCsAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T02:52:25.438Z",
+              "WhenOpened": "2024-04-23T03:43:45.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240423034200_mg11.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Migrations\\20240423034200_mg11.cs",
+              "RelativeDocumentMoniker": "ERPServer.Infrastructure\\Migrations\\20240423034200_mg11.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Migrations\\20240423034200_mg11.cs",
+              "RelativeToolTip": "ERPServer.Infrastructure\\Migrations\\20240423034200_mg11.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T03:42:00.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderDetailConfiguration.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
+              "RelativeDocumentMoniker": "ERPServer.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
+              "RelativeToolTip": "ERPServer.Infrastructure\\Configurations\\OrderDetailConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T03:41:50.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "ERPServer.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAmwDIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T03:41:39.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Entities\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "ERPServer.Domain\\Entities\\OrderDetail.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Entities\\OrderDetail.cs",
+              "RelativeToolTip": "ERPServer.Domain\\Entities\\OrderDetail.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T03:40:45.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "ERPServer.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "ERPServer.Domain\\Entities\\Order.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T03:29:02.184Z",
               "EditorCaption": ""
             }
           ]

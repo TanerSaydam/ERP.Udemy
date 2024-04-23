@@ -6,6 +6,6 @@ namespace ERPServer.Application.Features.Orders.UpdateOrder;
 public sealed record UpdateOrderCommand(
     Guid Id,
     Guid CustomerId,
-    DateTime Date,
-    DateTime DeliveryDate,
+    DateOnly Date,
+    DateOnly DeliveryDate,
     List<OrderDetailDto> Details) : IRequest<Result<string>>;

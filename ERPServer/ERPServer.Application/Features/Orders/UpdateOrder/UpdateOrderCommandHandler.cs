@@ -29,7 +29,19 @@ internal sealed class UpdateOrderCommandHandler(
 
         orderDetailRepository.DeleteRange(order.Details);
 
+        List<OrderDetail> newDetails = request.Details.Select(s => new OrderDetail
+        {
+            OrderId = order.Id,
+            Price = s.Price,
+            ProductId = s.ProductId,
+            Quantity = s.Quantity
+        }).ToList();
+
+        await orderDetailRepository.AddRangeAsync(newDetails, cancellationToken);
+
         mapper.Map(request, order);
+
+        orderRepository.Update(order);
 
         await unitOfWork.SaveChangesAsync();
 

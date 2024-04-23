@@ -13,6 +13,6 @@ internal sealed class OrderDetailConfiguration : IEntityTypeConfiguration<OrderD
             .OnDelete(DeleteBehavior.NoAction);
 
         builder.Property(p => p.Price).HasColumnType("money");
-        builder.Property(p => p.Qantity).HasColumnType("decimal(7,2)");
+        builder.Property(p => p.Quantity).HasColumnType("decimal(7,2)");
     }
 }

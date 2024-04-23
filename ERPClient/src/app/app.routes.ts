@@ -9,6 +9,7 @@ import { DepotsComponent } from './components/depots/depots.component';
 import { ProductsComponent } from './components/products/products.component';
 import { RecipesComponent } from './components/recipes/recipes.component';
 import { RecipeDetailsComponent } from './components/recipe-details/recipe-details.component';
+import { OrdersComponent } from './components/orders/orders.component';
 
 export const routes: Routes = [
     {
@@ -43,6 +44,10 @@ export const routes: Routes = [
             {
                 path: "recipe-details/:id",
                 component: RecipeDetailsComponent
+            },
+            {
+                path: "orders",
+                component: OrdersComponent
             }
         ]
     }
