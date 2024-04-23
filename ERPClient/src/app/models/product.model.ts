@@ -3,6 +3,7 @@ export class ProductModel{
     name: string = "";
     type: ProductTypeEnum = new ProductTypeEnum();
     typeValue: number = 1;
+    quantity: number = 0;
 }
 
 export class ProductTypeEnum{

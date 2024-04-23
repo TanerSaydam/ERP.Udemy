@@ -10,11 +10,16 @@ import { ProductsComponent } from './components/products/products.component';
 import { RecipesComponent } from './components/recipes/recipes.component';
 import { RecipeDetailsComponent } from './components/recipe-details/recipe-details.component';
 import { OrdersComponent } from './components/orders/orders.component';
+import { RequirementsPlanningComponent } from './components/requirements-planning/requirements-planning.component';
 
 export const routes: Routes = [
     {
         path: "login",
         component: LoginComponent
+    },
+    {
+        path: "requirements-planning/:orderId",
+        component: RequirementsPlanningComponent
     },
     {
         path: "",
