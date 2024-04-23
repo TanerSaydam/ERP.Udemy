@@ -158,3 +158,4 @@ C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\refint\ERPServer.WebAPI.dll
 C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.pdb
 C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.genruntimeconfig.cache
 C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ref\ERPServer.WebAPI.dll
+C:\ERP\ERPServer\ERPServer.WebAPI\obj\Debug\net8.0\ERPServer.WebAPI.MvcApplicationPartsAssemblyInfo.cs

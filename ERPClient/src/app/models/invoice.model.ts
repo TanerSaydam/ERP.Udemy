@@ -10,6 +10,7 @@ export class InvoiceModel{
     type: InvoiceTypeEnum = new InvoiceTypeEnum();
     typeValue: number = 1;
     details: InvoiceDetailModel[] = [];
+    orderId?: string | null = null;
 }
 
 export class InvoiceTypeEnum{

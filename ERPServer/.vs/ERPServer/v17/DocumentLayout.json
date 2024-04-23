@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\ERP\\ERPServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\erpserver.webapi\\middlewares\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver.webapi\\middlewares\\exceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\invoices\\updateinvoice\\updateinvoicecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\invoices\\updateinvoice\\updateinvoicecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\productions\\createproduction\\createproductioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\productions\\createproduction\\createproductioncommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\invoices\\updateinvoice\\updateinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\invoices\\updateinvoice\\updateinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|c:\\erp\\erpserver\\erpserver.domain\\entities\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver.domain\\entities\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|c:\\erp\\erpserver\\erpserver.domain\\enums\\orderstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver.domain\\enums\\orderstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\productions\\getallproduction\\getallproductionqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\productions\\getallproduction\\getallproductionqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\invoices\\createinvoice\\createinvoicecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\invoices\\createinvoice\\createinvoicecommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\invoices\\createinvoice\\createinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\invoices\\createinvoice\\createinvoicecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,54 +54,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ExceptionHandler.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Middlewares\\ExceptionHandler.cs",
-              "RelativeDocumentMoniker": "ERPServer.WebAPI\\Middlewares\\ExceptionHandler.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Middlewares\\ExceptionHandler.cs",
-              "RelativeToolTip": "ERPServer.WebAPI\\Middlewares\\ExceptionHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:20:53.652Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Production.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Entities\\Production.cs",
-              "RelativeDocumentMoniker": "ERPServer.Domain\\Entities\\Production.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Entities\\Production.cs",
-              "RelativeToolTip": "ERPServer.Domain\\Entities\\Production.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
+              "Title": "OrderStatusEnum.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Enums\\OrderStatusEnum.cs",
+              "RelativeDocumentMoniker": "ERPServer.Domain\\Enums\\OrderStatusEnum.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Enums\\OrderStatusEnum.cs",
+              "RelativeToolTip": "ERPServer.Domain\\Enums\\OrderStatusEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:14:10.617Z",
+              "WhenOpened": "2024-04-23T08:39:40.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateProductionCommandHandler.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Productions\\CreateProduction\\CreateProductionCommandHandler.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAowFkAAAAIAAAA",
+              "Title": "UpdateInvoiceCommand.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Invoices\\UpdateInvoice\\UpdateInvoiceCommand.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Invoices\\UpdateInvoice\\UpdateInvoiceCommand.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Invoices\\UpdateInvoice\\UpdateInvoiceCommand.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Invoices\\UpdateInvoice\\UpdateInvoiceCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:13:59.558Z",
+              "WhenOpened": "2024-04-23T08:35:16.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateInvoiceCommandHandler.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Invoices\\UpdateInvoice\\UpdateInvoiceCommandHandler.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Invoices\\UpdateInvoice\\UpdateInvoiceCommandHandler.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Invoices\\UpdateInvoice\\UpdateInvoiceCommandHandler.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Invoices\\UpdateInvoice\\UpdateInvoiceCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:35:10.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GetAllProductionQueryHandler.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQueryHandler.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQueryHandler.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQueryHandler.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Productions\\GetAllProduction\\GetAllProductionQueryHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAgAAAA",
+              "Title": "CreateInvoiceCommandHandler.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Invoices\\CreateInvoice\\CreateInvoiceCommandHandler.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Invoices\\CreateInvoice\\CreateInvoiceCommandHandler.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Invoices\\CreateInvoice\\CreateInvoiceCommandHandler.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Invoices\\CreateInvoice\\CreateInvoiceCommandHandler.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwDQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T08:08:57.161Z",
+              "WhenOpened": "2024-04-23T08:33:49.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateInvoiceCommand.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Invoices\\CreateInvoice\\CreateInvoiceCommand.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Invoices\\CreateInvoice\\CreateInvoiceCommand.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Invoices\\CreateInvoice\\CreateInvoiceCommand.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Invoices\\CreateInvoice\\CreateInvoiceCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T08:33:37.663Z",
               "EditorCaption": ""
             }
           ]

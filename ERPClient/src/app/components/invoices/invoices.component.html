@@ -74,13 +74,25 @@
 
                     <div class="form-group mt-2">
                         <label>Müşteri</label>
-                        <select class="form-control" name="customer" [(ngModel)]="createModel.customerId" required>
+                        <select class="form-control" name="customer" (change)="setSelectedCustomerOrders()" [(ngModel)]="createModel.customerId" required>
                             @for(customer of customers; track customer){
                             <option [value]="customer.id">{{customer.name}}</option>
                             }
                         </select>
                         <div class="invalid-feedback"></div>
                     </div>
+
+                    @if(type == 2){
+                        <div class="form-group mt-2">
+                            <label>Sipariş</label>
+                            <select class="form-control" name="customer" [(ngModel)]="createModel.orderId" required>
+                                @for(order of customerOrders; track order){
+                                <option [value]="order.id">{{order.number}}</option>
+                                }
+                            </select>
+                            <div class="invalid-feedback"></div>
+                        </div>
+                    }                    
 
                     <hr>
 
@@ -207,14 +219,9 @@
 
                     <div class="form-group mt-2">
                         <label>Müşteri</label>
-                        <select class="form-control" name="updateCustomer" [(ngModel)]="updateModel.customerId"
-                            required>
-                            @for(customer of customers; track customer){
-                            <option [value]="customer.id">{{customer.name}}</option>
-                            }
-                        </select>
-                        <div class="invalid-feedback"></div>
-                    </div>
+                        <br>
+                        <span>{{updateModel.customer.name}}</span>
+                    </div>                       
                     <hr>
 
                     <div class="form-group mt-2">

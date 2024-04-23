@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ERPServer.Domain.Entities;
+using ERPServer.Domain.Enums;
 using ERPServer.Domain.Repositories;
 using GenericRepository;
 using MediatR;
@@ -66,7 +67,7 @@ internal sealed class UpdateInvoiceCommandHandler(
             newMovements.Add(movement);
         }
 
-        await stockMovementRepository.AddRangeAsync(newMovements, cancellationToken);
+        await stockMovementRepository.AddRangeAsync(newMovements, cancellationToken);        
 
         await unitOfWork.SaveChangesAsync(cancellationToken);
 

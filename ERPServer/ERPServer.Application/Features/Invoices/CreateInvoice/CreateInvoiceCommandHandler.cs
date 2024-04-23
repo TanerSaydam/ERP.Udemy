@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using ERPServer.Domain.Entities;
+using ERPServer.Domain.Enums;
 using ERPServer.Domain.Repositories;
 using GenericRepository;
 using MediatR;
@@ -10,6 +11,7 @@ namespace ERPServer.Application.Features.Invoices.CreateInvoice;
 internal sealed class CreateInvoiceCommandHandler(
     IInvoiceRepository invoiceRepository,
     IStockMovementRepository stockMovementRepository,
+    IOrderRepository orderRepository,
     IUnitOfWork unitOfWork,
     IMapper mapper) : IRequestHandler<CreateInvoiceCommand, Result<string>>
 {
@@ -39,6 +41,17 @@ internal sealed class CreateInvoiceCommandHandler(
         }        
 
         await invoiceRepository.AddAsync(invoice, cancellationToken);
+
+        if(request.OrderId is not null)
+        {
+            Order order = await orderRepository.GetByExpressionWithTrackingAsync(p => p.Id == request.OrderId, cancellationToken);
+
+            if(order != null)
+            {
+                order.Status = OrderStatusEnum.Completed;
+            }
+        }
+
         await unitOfWork.SaveChangesAsync(cancellationToken);
 
         return "Fatura başarıyla oluşturuldu";
