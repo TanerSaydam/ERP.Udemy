@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ERP\\ERPServer\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\orders\\requirementsplanningbyorderid\\requirementsplanningbyorderidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\orders\\requirementsplanningbyorderid\\requirementsplanningbyorderidcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\orders\\requirementsplanningbyorderid\\requirementsplanningbyorderidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\orders\\requirementsplanningbyorderid\\requirementsplanningbyorderidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|c:\\erp\\erpserver\\erpserver.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB790507-32FE-4316-B438-670A12E2BF35}|ERPServer.WebAPI\\ERPServer.WebAPI.csproj|solutionrelative:erpserver.webapi\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|c:\\erp\\erpserver\\erpserver.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE0BCBB9-FE84-490F-80F6-E975897A1E64}|ERPServer.Domain\\ERPServer.Domain.csproj|solutionrelative:erpserver.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,58 +30,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RequirementsPlanningByOrderIdCommandHandler.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommandHandler.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommandHandler.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommandHandler.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommandHandler.cs",
-              "ViewState": "AQIAAFYAAAAAAAAAAAAiwGwAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T05:20:16.957Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "ERPServer.WebAPI\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.WebAPI\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "ERPServer.WebAPI\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAqwC4AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T05:18:28.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Dtos\\ProductDto.cs",
-              "RelativeDocumentMoniker": "ERPServer.Domain\\Dtos\\ProductDto.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Domain\\Dtos\\ProductDto.cs",
-              "RelativeToolTip": "ERPServer.Domain\\Dtos\\ProductDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T05:04:16.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RequirementsPlanningByOrderIdCommand.cs",
-              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommand.cs",
-              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommand.cs",
-              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommand.cs",
-              "RelativeToolTip": "ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommand.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T04:53:29.833Z",
-              "EditorCaption": ""
             }
           ]
         }
