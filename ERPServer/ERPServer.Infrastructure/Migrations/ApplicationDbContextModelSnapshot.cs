@@ -267,6 +267,34 @@ namespace ERPServer.Infrastructure.Migrations
                     b.ToTable("RecipeDetails");
                 });
 
+            modelBuilder.Entity("ERPServer.Domain.Entities.StockMovement", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("DepotId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<decimal>("NumberOfEntries")
+                        .HasColumnType("decimal(7,2)");
+
+                    b.Property<decimal>("NumberOfOutputs")
+                        .HasColumnType("decimal(7,2)");
+
+                    b.Property<decimal>("Price")
+                        .HasColumnType("money");
+
+                    b.Property<Guid>("ProductId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("StockMovements");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", b =>
                 {
                     b.Property<Guid>("Id")
@@ -337,6 +365,17 @@ namespace ERPServer.Infrastructure.Migrations
                     b.HasOne("ERPServer.Domain.Entities.Recipe", null)
                         .WithMany("Details")
                         .HasForeignKey("RecipeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("ERPServer.Domain.Entities.StockMovement", b =>
+                {
+                    b.HasOne("ERPServer.Domain.Entities.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

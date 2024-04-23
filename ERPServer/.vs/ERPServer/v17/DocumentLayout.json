@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\ERP\\ERPServer\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|c:\\erp\\erpserver\\erpserver.application\\features\\orders\\requirementsplanningbyorderid\\requirementsplanningbyorderidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D441BE40-CEFE-4CC5-BDB2-28E6CC20EAEB}|ERPServer.Application\\ERPServer.Application.csproj|solutionrelative:erpserver.application\\features\\orders\\requirementsplanningbyorderid\\requirementsplanningbyorderidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,6 +35,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RequirementsPlanningByOrderIdCommand.cs",
+              "DocumentMoniker": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommand.cs",
+              "RelativeDocumentMoniker": "ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommand.cs",
+              "ToolTip": "C:\\ERP\\ERPServer\\ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommand.cs",
+              "RelativeToolTip": "ERPServer.Application\\Features\\Orders\\RequirementsPlanningByOrderId\\RequirementsPlanningByOrderIdCommand.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCMAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T04:53:29.833Z",
+              "EditorCaption": ""
             }
           ]
         }
