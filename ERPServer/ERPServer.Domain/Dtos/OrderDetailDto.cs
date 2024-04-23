@@ -4,3 +4,4 @@ public sealed record OrderDetailDto(
     decimal Quantity,
     decimal Price
     );
+

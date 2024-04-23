@@ -183,6 +183,9 @@ namespace ERPServer.Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<Guid>("DepotId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<Guid>("InvoiceId")
                         .HasColumnType("uniqueidentifier");
 
@@ -196,6 +199,8 @@ namespace ERPServer.Infrastructure.Migrations
                         .HasColumnType("decimal(7,2)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("DepotId");
 
                     b.HasIndex("InvoiceId");
 
@@ -386,6 +391,12 @@ namespace ERPServer.Infrastructure.Migrations
 
             modelBuilder.Entity("ERPServer.Domain.Entities.InvoiceDetail", b =>
                 {
+                    b.HasOne("ERPServer.Domain.Entities.Depot", "Depot")
+                        .WithMany()
+                        .HasForeignKey("DepotId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("ERPServer.Domain.Entities.Invoice", null)
                         .WithMany("Details")
                         .HasForeignKey("InvoiceId")
@@ -397,6 +408,8 @@ namespace ERPServer.Infrastructure.Migrations
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
+
+                    b.Navigation("Depot");
 
                     b.Navigation("Product");
                 });
