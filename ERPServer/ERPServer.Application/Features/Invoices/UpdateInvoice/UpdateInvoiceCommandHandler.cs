@@ -10,6 +10,7 @@ namespace ERPServer.Application.Features.Invoices.UpdateInvoice;
 
 internal sealed class UpdateInvoiceCommandHandler(
     IInvoiceRepository invoiceRepository,
+    IInvoiceDetailRepository invoiceDetailRepository,
     IStockMovementRepository stockMovementRepository,
     IUnitOfWork unitOfWork,
     IMapper mapper) : IRequestHandler<UpdateInvoiceCommand, Result<string>>
@@ -17,7 +18,10 @@ internal sealed class UpdateInvoiceCommandHandler(
     public async Task<Result<string>> Handle(UpdateInvoiceCommand request, CancellationToken cancellationToken)
     {
         Invoice? invoice =
-            await invoiceRepository.GetByExpressionWithTrackingAsync(p => p.Id == request.Id, cancellationToken);
+            await invoiceRepository
+            .WhereWithTracking(p => p.Id == request.Id)
+            .Include(p=> p.Details)
+            .FirstOrDefaultAsync(cancellationToken);
 
         if (invoice is null)
         {
@@ -31,6 +35,19 @@ internal sealed class UpdateInvoiceCommandHandler(
 
         stockMovementRepository.DeleteRange(movements);
 
+        invoiceDetailRepository.DeleteRange(invoice.Details);        
+
+        invoice.Details = request.Details.Select(s => new InvoiceDetail
+        {
+            InvoiceId = invoice.Id,
+            DepotId = s.DepotId,
+            ProductId = s.ProductId,
+            Price = s.Price,
+            Quantity = s.Quantity
+        }).ToList();
+
+        await invoiceDetailRepository.AddRangeAsync(invoice.Details, cancellationToken);
+
         mapper.Map(request, invoice);
 
         List<StockMovement> newMovements = new();
@@ -39,8 +56,8 @@ internal sealed class UpdateInvoiceCommandHandler(
             StockMovement movement = new()
             {
                 InvoiceId = invoice.Id,
-                NumberOfEntries = request.Type == 1 ? item.Quantity : 0,
-                NumberOfOutputs = request.Type == 2 ? item.Quantity : 0,
+                NumberOfEntries = invoice.Type.Value == 1 ? item.Quantity : 0,
+                NumberOfOutputs = invoice.Type.Value == 2 ? item.Quantity : 0,
                 DepotId = item.DepotId,
                 Price = item.Price,
                 ProductId = item.ProductId,

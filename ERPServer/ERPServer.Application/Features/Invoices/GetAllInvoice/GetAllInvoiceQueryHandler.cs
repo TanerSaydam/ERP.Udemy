@@ -1,4 +1,5 @@
 ﻿using ERPServer.Domain.Entities;
+using ERPServer.Domain.Enums;
 using ERPServer.Domain.Repositories;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +14,12 @@ internal sealed class GetAllInvoiceQueryHandler(
     {
         List<Invoice> invoices = 
             await invoiceRepository
-            .Where(p => p.Type.Value == request.Type)
+            .Where(p => p.Type == InvoiceTypeEnum.FromValue(request.Type))
+            .Include(p=> p.Customer)
+            .Include(p=> p.Details!)
+            .ThenInclude(p=> p.Product)
+            .Include(p=> p.Details!)
+            .ThenInclude(p=> p.Depot)
             .OrderBy(p => p.Date)
             .ToListAsync(cancellationToken);
 
