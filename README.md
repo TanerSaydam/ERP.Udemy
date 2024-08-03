@@ -3,7 +3,7 @@ Bu repo udemy içinde hazırladığım ERP uygulamasına aittir.
 
 İndirim kuponu için bana LinkedIn üzerinden ulaşabilirsiniz
 
-https://www.linkedin.com/in/taner-saydam-b26336222/
+<a href="https://www.linkedin.com/in/taner-saydam-b26336222/" target="_blank">https://www.linkedin.com/in/taner-saydam-b26336222/</a>
 
 ya da Mail atabilirsiniz
 
